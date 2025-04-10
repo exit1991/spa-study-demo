@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Demo</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Local Storage Demo</h1>
+    <p>※これはSPAの説明には必須ではなく、単にJS周りのAPIを紹介するだけです。</p>
+    <p>「セッションストレージ」、「ローカルストレージ」は、データをブラウザーに保存する仕組みです。</p>
+    <p>「セッションストレージ」はブラウザを閉じればデータが消えますが、「ローカルストレージ」はブラウザを閉じても残り続けます。</p>
+    
+    <!-- DEMO -->
+    <form>
+        <textarea class="textarea"></textarea>
+        <div>
+            <button type="button" class="save-btn">ローカルストレージへ保存</button>
+            <button type="button" class="load-btn">ローカルストレージから読み込み</button>
+            <button type="button" class="clear-btn">ローカルストレージ内を削除</button>
+        </div>
+    </form>
+</body>
+</html>
